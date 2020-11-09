@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/StartFragment">
+
+    <fragment
+        android:id="@+id/StartFragment"
+        android:name="com.peakfinn.task1.StartFragment"
+        android:label="@string/start_fragment_label"
+        tools:layout="@layout/fragment_start">
+
+        <action
+            android:id="@+id/action_startToRating"
+            app:destination="@id/RatingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/RatingFragment"
+        android:name="com.peakfinn.task1.RatingFragment"
+        android:label="@string/rating_fragment_label"
+        tools:layout="@layout/fragment_rating">
+
+        <action
+            android:id="@+id/action_ratingToSummary"
+            app:destination="@id/SummaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SummaryFragment"
+        android:name="com.peakfinn.task1.SummaryFragment"
+        android:label="@string/summary_fragment_label"
+        tools:layout="@layout/fragment_summary">
+
+        <action
+            android:id="@+id/action_summaryToStart"
+            app:destination="@id/StartFragment" />
+    </fragment>
+</navigation>

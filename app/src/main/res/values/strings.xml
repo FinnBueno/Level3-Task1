@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MadLevel3Task1</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="start">Start</string>
+    <string name="to_summary">To Summary</string>
+    <string name="title_first_fragment">Welcome to the Games Rating app!</string>
+    <string name="header_first_fragment">Click START to start rating</string>
+    <string name="title_second_fragment">Rate the following game from 1 to 5 stars!</string>
+    <string name="header_second_fragment">Shadow of the Tombraider</string>
+    <string name="start_over">Start over</string>
+    <string name="start_fragment_label">Start fragment</string>
+    <string name="rating_fragment_label">Rating fragment</string>
+    <string name="summary_fragment_label">Summary fragment</string>
+</resources>
